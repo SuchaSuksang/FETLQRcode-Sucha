@@ -4,5 +4,12 @@
     <string name="user">User :</string>
     <string name="password">Password :</string>
     <string name="new_register">New Register</string>
+    <string name="name">Name :</string>
+    <string name="title_HaveSpace">Have Space</string>
+    <string name="message_HaveSpace">Please input all box</string>
+    <string name="title_UserFalse">User False</string>
+    <string name="message_UserFalse">No user in my Database</string>
+    <string name="title_PasswordFalse">Password False</string>
+    <string name="message_PasswordFalse">Please try again Password False</string>
 
 </resources>

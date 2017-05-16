@@ -14,6 +14,7 @@
         android:layout_height="wrap_content">
 
         <ImageView
+            android:id="@+id/btnBack"
             android:src="@mipmap/ic_back"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
@@ -62,6 +63,49 @@
                     android:layout_height="wrap_content" />
 
                 <EditText
+                    android:inputType="text"
+                    android:id="@+id/edtName"
+                    android:hint="@string/name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:src="@mipmap/ic_user"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <EditText
+                    android:inputType="text"
+                    android:id="@+id/edtUser"
+                    android:textColorHint="@color/colorPrimary"
+                    android:hint="@string/user"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:src="@mipmap/ic_user"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <EditText
+                    android:inputType="text"
+                    android:id="@+id/edtPassword"
+                    android:textColorHint="@color/colorPrimary"
+                    android:hint="@string/password"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content" />
 
@@ -69,8 +113,8 @@
 
         </LinearLayout>
 
-    </ScrollView>
 
+    </ScrollView>
 
 
 </RelativeLayout>
